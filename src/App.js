@@ -20,7 +20,7 @@ function App() {
             <a href="#Home">Home</a>
             <a href="#Projects">Projects</a>
             <a href="#Skills">Skills</a>
-            <a href="#ContactMe">Contact</a>
+            <a href="#ContactMe">Contact </a>
             <a href="#AboutMe">About</a>
         </nav>
         </details>
@@ -28,13 +28,13 @@ function App() {
 <body>
     <main id="Home" className="main-content">
       <section className='top-section'>
-      <img className= "background" src={Bgimg} alt="like"/>
+      <img className= "background" src={ Bgimg }/>
       </section>
         <section className="left-section">
             <div className="left-content">
                 <div className="profile">
                     <div className="image">
-                        <img src={myimg} alt=""/>
+                        <img src={myimg}/>
                     </div>
                     <h2 className="name">Suyash Asati</h2>
                     <p className="career">Frontend developer</p>
@@ -44,17 +44,17 @@ function App() {
                 <div className="icons" >
                         <a href="https://www.linkedin.com/in/suyash-asati-789ab3221" target="_blank">
                          <img className="iconsmain" src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" 
-                         alt="like"/> </a>
+                         /> </a>
                         <a href="https://github.com/account" target="_blank">
-                            <img className="iconsmain" src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png" alt="like"/></a>
+                            <img className="iconsmain" src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png" /></a>
                         
                         < a href="https://www.instagram.com/imsuyash_25/?next=%2F" target="_blank">
-                        <img className="iconsmain" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="like"/></a>
+                        <img className="iconsmain" src="https://cdn-icons-png.flaticon.com/512/174/174855.png"/></a>
                         <a href="https://leetcode.com/imsuyash_25/" target="_blank">
-                        <img className="iconsmain" src="https://cdn.iconscout.com/icon/free/png-256/leetcode-3521542-2944960.png?w=128&f=avif" alt="like"/>
+                        <img className="iconsmain" src="https://cdn.iconscout.com/icon/free/png-256/leetcode-3521542-2944960.png?w=128&f=avif" />
                         </a>    
                         <a href="https://www.codechef.com/users/imsuyash_25" target="_blank">    
-                        <img className="iconsmain" src="https://img.icons8.com/ios-filled/2x/codechef.png" alt="like"/></a>
+                        <img className="iconsmain" src="https://img.icons8.com/ios-filled/2x/codechef.png" /></a>
                         
                 </div>
                     <br/><br/>
@@ -275,7 +275,7 @@ acquired from my coursework and with my hard work
                         </div>
                         <div className="right-tl-content">
                             <div className="tl-content">
-                                <img className="project_img" src={Bright} alt="hello"/>
+                                <img className="project_img" src={Bright} />
                             </div>
                         </div>
                     </div>
@@ -297,7 +297,7 @@ acquired from my coursework and with my hard work
                         </div>
                         <div className="right-tl-content">
                             <div className="tl-content">
-                            <img className="project_img" src={Ipod} alt="hello"/>
+                            <img className="project_img" src={Ipod}/>
                             </div>
                         </div>
                     </div>
