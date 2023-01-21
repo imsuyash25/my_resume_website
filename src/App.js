@@ -1,29 +1,30 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ResponsiveAppBar from './navbar.js';
 import './styles.css';
 import myimg from './myimage.jpg';
 import Navbar from './navbar.js';
 import Ipod from './ipod.jpg';
 import Bright from './bright.png';
-import Bgimg from './bgimg.png';
 import './navbar.css';
+import Bgimg from './background/image(43).jpg';
 
-function App() {
+function App() { 
   return (
     <div classNameName="App">
+    <Navbar />
     <div className="Body">
-        <details className='details'>
+        { /*<details className='details'>
         <summary className='summary'></summary>
-        <nav className="menu">
+       <nav className="menu">
             <a href="#Home">Home</a>
             <a href="#Projects">Projects</a>
             <a href="#Skills">Skills</a>
             <a href="#ContactMe">Contact</a>
             <a href="#AboutMe">About</a>
-        </nav>
-        </details>
+         </nav> 
+        
+        </details>*/}
     </div>
 <body>
     <main id="Home" className="main-content">
@@ -44,17 +45,17 @@ function App() {
                 <div className="icons" >
                         <a href="https://www.linkedin.com/in/suyash-asati-789ab3221" target="_blank">
                          <img className="iconsmain" src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" 
-                         alt="like"/> </a>
-                        <a href="https://github.com/account" target="_blank">
-                            <img className="iconsmain" src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png" alt="like"/></a>
+                         alt="linkedin"/> </a>
+                        <a href="https://github.com/imsuyash25" target="_blank">
+                            <img className="iconsmain" src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png" alt="github"/></a>
                         
                         < a href="https://www.instagram.com/imsuyash_25/?next=%2F" target="_blank">
-                        <img className="iconsmain" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="like"/></a>
+                        <img className="iconsmain" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="insta"/></a>
                         <a href="https://leetcode.com/imsuyash_25/" target="_blank">
-                        <img className="iconsmain" src="https://cdn.iconscout.com/icon/free/png-256/leetcode-3521542-2944960.png?w=128&f=avif" alt="like"/>
+                        <img className="iconsmain" src="https://cdn.iconscout.com/icon/free/png-256/leetcode-3521542-2944960.png?w=128&f=avif" alt="leetcode"/>
                         </a>    
                         <a href="https://www.codechef.com/users/imsuyash_25" target="_blank">    
-                        <img className="iconsmain" src="https://img.icons8.com/ios-filled/2x/codechef.png" alt="like"/></a>
+                        <img className="iconsmain" src="https://img.icons8.com/ios-filled/2x/codechef.png" alt="codechef"/></a>
                         
                 </div>
                     <br/><br/>
@@ -78,7 +79,7 @@ function App() {
                         <li>
                             <p className="skill-title">React.js</p>
                             <div className="progress-bar">
-                                <div className="progress j-progress"></div>
+                                <div className="progress js-progress"></div>
                             </div>
                         </li>
                         <li>
@@ -96,13 +97,13 @@ function App() {
                         <li>
                             <p className="skill-title">Python</p>
                             <div className="progress-bar">
-                                <div className="progress n-progress"></div>
+                                <div className="progress c-progress"></div>
                             </div>
                         </li>
                         <li>
                             <p className="skill-title">html/css</p>
                             <div className="progress-bar">
-                                <div className="progress ps-progress"></div>
+                                <div className="progress n-progress"></div>
                             </div>
                         </li>
                         <li>
@@ -123,7 +124,7 @@ function App() {
                 <h3 className="main-title">Contact Me</h3>
                     <ul>
                         <li>
-                            <p className="skill-title">Via Phone : <br></br>+916260602448 , 7489475486</p>
+                            <p className="skill-title">Via Phone : +916260602448 , 7489475486</p>
                             
                         </li>
                         <li>
