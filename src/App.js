@@ -113,8 +113,9 @@ function App() {
                             
                         </li>
                         <li>
-                            <p className="skill-title">via Gmail: asatisuyash@gmail.com</p>
-                            
+                            <p className="skill-title">via Gmail :
+                            <a href="mailto: asatisuyash@gmail.com" > Click here to send mail</a></p>
+    
                         </li>
                         <li>
                             <p className="skill-title">Address: Gohalpur Jabalpur, Madhyapradesh, India 
