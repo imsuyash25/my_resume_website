@@ -58,13 +58,13 @@ function App() {
                         <li>
                             <p className="skill-title">C++</p>
                             <div className="progress-bar">
-                                <div className="progress ps-progress"></div>
+                                <div className="progress j-progress"></div>
                             </div>
                         </li>
                         <li>
                             <p className="skill-title">React.js</p>
                             <div className="progress-bar">
-                                <div className="progress j-progress"></div>
+                                <div className="progress js-progress"></div>
                             </div>
                         </li>
                         <li>
@@ -76,13 +76,13 @@ function App() {
                         <li>
                             <p className="skill-title">Javascript</p>
                             <div className="progress-bar">
-                                <div className="progress n-progress"></div>
+                                <div className="progress js-progress"></div>
                             </div>
                         </li>
                         <li>
                             <p className="skill-title">Python</p>
                             <div className="progress-bar">
-                                <div className="progress n-progress"></div>
+                                <div className="progress c-progress"></div>
                             </div>
                         </li>
                         <li>
