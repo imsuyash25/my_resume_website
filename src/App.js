@@ -1,31 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import ResponsiveAppBar from './navbar.js';
 import './styles.css';
 import myimg from './myimage.jpg';
 import Navbar from './navbar.js';
 import Ipod from './ipod.jpg';
 import Bright from './bright.png';
 import Bgimg from './background/image(43).jpg';
-import './navbar.css';
 
 function App() {
   return (
     <div classNameName="App">
-    <div className="Body">
-        <details className='details'>
-        <summary className='summary'></summary>
-        <nav className="menu">
-            <a href="#Home">Home</a>
-            <a href="#Projects">Projects</a>
-            <a href="#Skills">Skills</a>
-            <a href="#ContactMe">Contact </a>
-            <a href="#AboutMe">About</a>
-        </nav>
-        </details>
-    </div>
-<body>
+    <body>
+    <Navbar />
     <main id="Home" className="main-content">
       <section className='top-section'>
       <img className= "background" src={ Bgimg }/>
