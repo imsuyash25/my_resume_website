@@ -4,6 +4,7 @@ import '../styles/navbar_style.css'
 import {Link} from 'react-router-dom';
 import { BiMenu } from 'react-icons/bi';
 
+
 export function Navbar(){
     const [toggle, setTog] = useState(false);
 
@@ -16,7 +17,7 @@ export function Navbar(){
         <>
         <nav className ="main-nav">
             <div className ="logo">
-                <h2><span>S</span>UYASH 
+               <h2><span>S</span>UYASH 
                 <span>A</span>SATI</h2>
             </div>
             {
