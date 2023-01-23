@@ -100,7 +100,9 @@ body{
   display: inline-block;
   margin-top: 12px;
 }
-.right-side .button input[type="button"]{
+
+
+.right-side .button input[type="Submit"]{
   color: #fff;
   font-size: 18px;
   outline: none;
@@ -111,17 +113,7 @@ body{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.backtohome Link{
-  color: #fff;
-  font-size: 18px;
-  outline: none;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  background: #3e2093;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
+
 .button input[type="button"]:hover{
   background: #5029bc;
 }

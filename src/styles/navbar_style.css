@@ -125,13 +125,15 @@ div ul li a:hover{
         z-index:99;
         justify-content: end;
     }
-    .hamburger-menu a img{
+    .hamburger-menu a svg{
+        color:white;
         height:3rem;
         width: 3rem;
         text-align: right;
         z-index:99;
         
     }
+    
    
 }
 @media (max-width:500px){

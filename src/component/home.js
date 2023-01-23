@@ -1,9 +1,9 @@
 import React from 'react';
-import './styles.css';
-import myimg from './myimage.jpg';
-import Ipod from './ipod.jpg';
-import Bright from './bright.png';
-import Bgimg from './background/image(43).jpg';
+import '../styles/styles.css';
+import myimg from '../images/myimage.jpg';
+import Ipod from '../images/ipod.jpg';
+import Bright from '../images/bright.png';
+import Bgimg from '../background/image(43).jpg';
 import {Navbar} from './navbar.js';
 function Home() {
   return (
@@ -101,27 +101,6 @@ function Home() {
                         </li>
                     </ul>
                 </div>
-                <div id= "ContactMe" className="contact-info">
-                <h3 className="main-title">Contact Me</h3>
-                    <ul>
-                        <li>
-                            <p className="skill-title">Via Phone : <br></br>+916260602448 , 7489475486</p>
-                            
-                        </li>
-                        <li>
-                            <p className="skill-title">via Gmail :
-                            <a href="mailto: asatisuyash@gmail.com" > Send Mail</a></p>
-    
-                        </li>
-                        <li>
-                            <p className="skill-title">Address: Gohalpur Jabalpur, Madhyapradesh, India 
-                            
-                            <br></br>
-                            Pin Code: 482002
-                            </p>
-                        </li>
-                    </ul>
-                    </div>
                 <div className="references-section">
                     <h3 className="main-title">Interest</h3>
                     <br></br>

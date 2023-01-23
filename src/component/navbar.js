@@ -1,7 +1,8 @@
 import React from 'react';
 import {useState} from 'react';
-import './navbar_style.css'
+import '../styles/navbar_style.css'
 import {Link} from 'react-router-dom';
+import { BiMenu } from 'react-icons/bi';
 
 export function Navbar(){
     const [toggle, setTog] = useState(false);
@@ -42,7 +43,7 @@ export function Navbar(){
 
                 <div className="hamburger-menu">
                     <a href="#" onClick={handle} >
-                    <img src="https://t3.ftcdn.net/jpg/01/09/45/80/240_F_109458015_QsWmchlzuwCZPqIUWR7HcTDsbbptejRv.jpg" alt=""/>
+                    <BiMenu/>
                     </a>
                 </div>
         </nav>
