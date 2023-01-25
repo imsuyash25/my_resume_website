@@ -1,17 +1,44 @@
 import React from 'react';
 import '../styles/styles.css';
+import {useState} from 'react';
 import myimg from '../images/myimage.jpg';
 import Ipod from '../images/ipod.jpg';
 import Bright from '../images/bright.png';
-import Bgimg from '../background/image(43).jpg';
 import {Navbar} from './navbar.js';
+import dataSlider from './slider';
+import {GoPrimitiveDot} from 'react-icons/go';
+import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs';
+
 function Home() {
+    const [slideindex, setindex] = useState(1);
+
+    function gotoprev(){
+        if(slideindex !== 0 ){
+            setindex(slideindex-1);
+        }
+        else{
+            setindex(dataSlider.length-1);
+        }
+    }
+    function gotonext(){
+        if(slideindex === dataSlider.length-1) setindex(0);
+        else setindex(slideindex+1);
+    }
+    
+
   return (
     <body>
     <Navbar/>
     <main id="Home" className="main-content">
       <section className='top-section'>
-      <img className= "background" src={ Bgimg } alt=""/>
+        <div className='leftarrow' onClick={gotoprev}> <BsChevronCompactLeft/> </div>
+        <div className='rightarrow' onClick={gotonext}> <BsChevronCompactRight/> </div>
+        <div className="dotslidercontainer">
+            {dataSlider.map((item,index)=>(
+                <div key={index} className={index===slideindex ? "dotstyle" : "dotslider"} onClick={()=>setindex(index)}> <GoPrimitiveDot/></div>
+            ))}
+        </div>
+        <img src= {dataSlider[slideindex].img} className = "background"  alt ="" />
       </section>
         <section className="left-section">
             <div className="left-content">
